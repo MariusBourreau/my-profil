@@ -1,0 +1,92 @@
+body
+{  background-color: black;
+color : white; 
+font-family: courier, monospace;
+font-size: 20px;
+line-height: 1.6;
+letter-spacing: 5px;
+font-weight : bold;
+padding: 30px;
+border-radius: 4px;
+box-shadow: 0 10px 30px rgb(0,0,0,.1);
+width: 1000px;
+margin : 50px auto;
+box-shadow: 0px 10px 30px white;
+
+
+}
+
+
+h1{color: gold;
+font-family: helvetica;
+
+
+}
+
+h2,h3{
+	color: rgb(100,100,100)
+	font-family : courier;
+	font-size: 30px
+	font-weight : lighter;
+}
+
+a{
+	text-decoration: none;
+	color : gold;
+}
+a:hover{
+	color: silver;
+}
+.img-circle{
+	border-radius: 20%;
+}
+.text-center{
+	text-align :text-center;
+}
+
+
+}
+
+}
+.list-inline{
+	list-style : none;
+	padding-left : 0px;
+
+}
+.list-inline > li{
+	display: inline;
+	padding : 0px 20px;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+a.bouton1 {
+padding: 10px 30px; 
+background: white; 
+border-radius: 4px; 
+}
+a.bouton1:hover {
+background: gold; 
+}
+a.bouton2 {
+padding: 10px 30px; 
+background: white; 
+border-radius: 4px; 
+}
+a.bouton2:hover {
+background: gold; 
+}
+
